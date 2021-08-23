@@ -25,9 +25,9 @@ TEMPLATE_DIR = os.path.join(BASE_DIR, "templates")
 SECRET_KEY = 'django-insecure-&zz1g=$6k^m=zic#mny-!lu%xc_iyztf3on=)#c$%z52q8)d)@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['simplesocial2021.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
